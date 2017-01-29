@@ -123,4 +123,16 @@ span {
   color: black;
   padding-top: 5%; }
 
+.portfolio {
+  padding: 50px 0; }
+
+.portfolio-item {
+  margin-bottom: 30px; }
+
+.img-portfolio {
+  margin: 0 auto; }
+
+.img-portfolio:hover {
+  opacity: 0.8; }
+
 /*# sourceMappingURL=style.css.map */
