@@ -21,9 +21,9 @@
                 </a>
             </div>
             <div class="nav navbar-nav navbar-right">
-                <li><a href="#secondpage">About me</a></li>
-                <li><a href="#portfolio">Previous Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#secondpage" class="smoothScroll">About me</a></li>
+                <li><a href="#portfolio" class="smoothScroll">Previous Projects</a></li>
+                <li><a href="#contact" class="smoothScroll">Contact</a></li>
             </div>
         </div> 
     </nav>
@@ -156,7 +156,7 @@
                     </ul>
                     <br>
                    
-                    </ul>
+                   
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Vassos 2017</p>
                 </div>
@@ -165,11 +165,15 @@
     </footer>
     
 
+
     <script src="../../js/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/prezi.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
     <script>
         $('.smooth').on('click', function() {
         $.smoothScroll({
